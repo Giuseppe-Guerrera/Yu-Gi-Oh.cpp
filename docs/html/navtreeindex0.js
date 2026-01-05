@@ -1,0 +1,23 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"classes.html":[0,1],
+"d0/d70/peer_8hpp_source.html":[1,0,0,0,1],
+"d1/db5/classKing.html":[0,0,3],
+"d3/d66/classCard.html":[0,0,1],
+"d6/dd4/classPeer.html":[0,0,5],
+"d6/df2/classDeck.html":[0,0,2],
+"d7/d2e/card_8hpp_source.html":[1,0,0,1],
+"da/d25/classAsyncQueue.html":[0,0,0],
+"dc/d4e/deck_8hpp_source.html":[1,0,0,2],
+"dc/d60/structKingdom__Struct.html":[0,0,4],
+"dc/d64/king_8hpp_source.html":[1,0,0,3],
+"dd/d49/async__queue_8hpp_source.html":[1,0,0,0,0],
+"dd/d60/load__files_8hpp_source.html":[1,0,0,4],
+"de/d76/print_8hpp_source.html":[1,0,0,5],
+"dir_4d2dd15c3adeebf82d8e7fd72886d519.html":[1,0,0,0],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[1,0,0],
+"files.html":[1,0],
+"index.html":[],
+"pages.html":[]
+};

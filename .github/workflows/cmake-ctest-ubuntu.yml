@@ -1,0 +1,33 @@
+name: Build and Tests on Ubuntu
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set VCPKG_ROOT
+      run: echo "VCPKG_ROOT=$VCPKG_INSTALLATION_ROOT" >> $GITHUB_ENV
+
+    - name: Get CMake and vcpkg versions
+      run: |
+        cmake --version
+        echo "---"
+        echo "VCPKG_ROOT is $VCPKG_ROOT"
+        vcpkg --version
+
+    - name: Configure CMake
+      run: cmake -B ./build -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Release -S .
+
+    - name: Build project
+      run: cmake --build ./build
+      
+    - name: Run Tests with CTest
+      working-directory: ./build
+      run: ctest
+

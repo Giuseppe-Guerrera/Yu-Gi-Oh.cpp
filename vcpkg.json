@@ -1,0 +1,12 @@
+{
+    "name": "yu-gi-oh-cpp",
+    "version-string": "0.0.0",
+    "dependencies": [
+        {
+            "name": "asio"
+        },
+        {
+            "name": "catch2"
+        }
+    ]
+}

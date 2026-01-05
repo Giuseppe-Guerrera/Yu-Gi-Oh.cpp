@@ -1,0 +1,63 @@
+# Doxyfile 1.15.0
+
+# This file describes the settings to be used by the documentation system
+# Doxygen (www.doxygen.org) for a project.
+
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+
+DOXYFILE_ENCODING       = UTF-8
+PROJECT_NAME            = "Yu-Gi-Oh.cpp"
+PROJECT_NUMBER          = 0.0.0
+PROJECT_BRIEF           = "A Cross-Platform Multiplayer CLI Card Game"
+PROJECT_LOGO            =
+OUTPUT_DIRECTORY        = ./
+CREATE_SUBDIRS          = YES
+OUTPUT_LANGUAGE         = English
+MARKDOWN_SUPPORT        = YES
+
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+HIDE_UNDOC_MEMBERS      = NO
+HIDE_UNDOC_CLASSES      = NO
+SHOW_NAMESPACES         = NO
+
+#---------------------------------------------------------------------------
+# Configuration options related to warning and progress messages
+#---------------------------------------------------------------------------
+WARN_IF_UNDOCUMENTED    = NO
+WARN_IF_INCOMPLETE_DOC  = NO
+
+#---------------------------------------------------------------------------
+# Configuration options related to the input files
+#---------------------------------------------------------------------------
+INPUT                   = ../src ../tests
+INPUT_ENCODING          = UTF-8
+FILE_PATTERNS           = *.c \
+                          *.cxx \
+                          *.cpp \
+                          *.c++ \
+                          *.h \
+                          *.hxx \
+                          *.hpp \
+                          *.h++ \
+                          *.md \
+                          *.dox \
+                          *.doc \
+                          *.txt
+RECURSIVE               = YES
+
+#---------------------------------------------------------------------------
+# Configuration options related to the output files
+#---------------------------------------------------------------------------
+GENERATE_HTML           = YES
+GENERATE_LATEX          = NO
+
+#---------------------------------------------------------------------------
+# Configuration options related to diagram generator tools
+#---------------------------------------------------------------------------
+HAVE_DOT                = YES
+INCLUDE_GRAPH           = YES
