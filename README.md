@@ -8,7 +8,7 @@ Yu-Gi-Oh.cpp is a cross-platform multiplayer CLI game made in C++
 - Organize your decks in subfolders, inside the `Decks` folder you can create as many subfolders as you want and put your decks there
 
 ### Project Highlights
-- Implemented documentation with **Doxygen** and hosted it on **GitHub Pages**
+- Implemented documentation with **Doxygen** and hosted it on [**GitHub Pages**](https://giuseppe-guerrera.github.io/Yu-Gi-Oh.cpp/)
 - Used **CMake** as the build system and implemented custom modules
 - Used **vcpkg** as the package manager and integrated it in CMake
 - Wrote Unit Tests with **Catch2** and included them in **CTest**
@@ -46,4 +46,4 @@ Yu-Gi-Oh.cpp.exe
 ```  
   
 ##### Note
-The project must be built inside the `build` folder as it requires files contained there(AllCards and the Decks dir), alternatively you can move these files to the location of your executable
+The project must be built inside the `build` folder as it requires files contained there(AllCards and the Decks dir), alternatively you can move these files to the location of your executable  
