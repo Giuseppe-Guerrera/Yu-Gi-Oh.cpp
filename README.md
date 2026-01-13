@@ -1,3 +1,5 @@
+[![Build and Tests on Ubuntu](https://github.com/Giuseppe-Guerrera/Yu-Gi-Oh.cpp/actions/workflows/cmake-ctest-ubuntu.yml/badge.svg)](https://github.com/Giuseppe-Guerrera/Yu-Gi-Oh.cpp/actions/workflows/cmake-ctest-ubuntu.yml)
+[![Build and Tests on Windows with MSVC](https://github.com/Giuseppe-Guerrera/Yu-Gi-Oh.cpp/actions/workflows/cmake-ctest-windows.yml/badge.svg)](https://github.com/Giuseppe-Guerrera/Yu-Gi-Oh.cpp/actions/workflows/cmake-ctest-windows.yml)
 # Yu-Gi-Oh.cpp
 ### Introduction
 Yu-Gi-Oh.cpp is a cross-platform multiplayer CLI game made in C++
