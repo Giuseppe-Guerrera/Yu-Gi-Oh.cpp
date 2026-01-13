@@ -1,0 +1,37 @@
+ This file contains all the cards usable during the game
+ The card format is: Name|Atk|Def| Effect|Level
+ Make sure to keep the spacing as is to avoid errors
+
+ To make a comment start the line with a space ' ' or with '{'
+
+{GOBLIN}
+
+Goblin Saboteur|300|400| -When "Goblin Saboteur" is eliminated shuffle 3 "bomb cards" into the opponent's deck; when drawn, they deal 100 damage to the drawing player's King and allow them to draw another card.|1
+Stealthy Goblin|500|100| -Can attack the opponent's King directly, ignoring enemy creatures, but deals only half its ATK as damage.|1
+Plundering Goblin|200|300| -If "Plundering Goblin" deals damage to the opponent’s King, you can look at the opponent’s hand and destroy a card of your choice; in this case, this creature is eliminated at the end of the turn.|1
+Shapeshifting Goblin|100|100| -Durante il turno avversario si trasforma in un feroce Goblin da 800 ATK e DEF|1
+Trap Goblin|100|200| -Quando "Goblin Trappola" é bersaglio di un attacco infliggi -300 danni al RE avversario|1
+Poisonous Goblin|400|100| -Quando "Goblin Velenoso" viene distrutto in battaglia infligge -200 ATK e DEF permanenti a una creatura avversaria a tua scelta|1
+Hunter Goblin|200|300| -“Goblin Cacciatore” elimina le creature in posizione di DEF che attacca se hanno DEF minore o uguale a 3x il suo ATK senza far subire danni al suo RE|1
+Stupid Goblin|2200|200| -Dopo aver eliminato 3 creature avversarie con "Goblin Stupido"; per rabbia si sfoga eliminandone una alleata casualmente tra quelle in campo|3
+Evil Goblin|1500|900| -Una volta per turno “Goblin Maligno” può inghiottire un altra creatura “Goblin” per acquisirne metà statistiche ATK e DEF fino la fine del turno; se lo fa' poi perde 200 ATK e DEF permanenti|3
+Predator Goblin|1700|700| -Durante la tua fase di battaglia guadagna +100 ATK per ogni creatura nel terreno avversario -Se attacca e distrugge una creatura nemica guadagna +300 ATK cumulabile fino la fine del turno e ne può attaccare una seconda; Questo effetto può essere attivato 2 volte per turno|3
+Goblin of Disgrace|2600|2200| -Una volta per turno puoi sacrificare un Goblin alleato per infliggere 400 danni diretti al Re avversario -Una volta per turno puoi scartare una carta per annullare un effetto attivo avversario; se riesce “Goblin della Disgrazia” perde -300 ATK e -200 DEF permanenti|4
+Nightmare Goblin|2600|2700| -Quando viene evocato puoi ridurre le statistiche di una creatura avversaria a tua scelta di -400 ATK  e DEF permanenti|4
+
+
+
+{WARRIORS}
+
+King's Recruit Warrior|500|200| -Se un'altra creatura Guerriero è presente sul campo; "Guerriero Recluta del Re guadagna +100 ATK|1
+King's Shield Warrior|100|500| -Se un "Guerriero lvl 1" sta per essere eliminato in battaglia; puoi sacrificare "Guerriero Scudo del Re" al suo posto|1
+Wind Warrior|200|300| -Puoi eliminare “Guerriero dei Venti” direttamente dalla tua mano o terreno per annullare un attacco diretto al tuo RE; in questo caso pesca una carta|1
+Shadow Warrior|300|300| -Mentre "Guerriero Ombra" é l’unico “Guerriero” in campo non puó essere bersaglio di un attacco|1
+Mystic Warrior|200|100| -Puoi sacrificare “Guerriero Mistico” per aggiungere alla mano cercando dal mazzo una carta Supporto a tua scelta; infliggi poi -200 danni al RE avversario|1
+Fearless Warrior|-1|-1| -“Guerriero Impavido" guadagna ATK e DEF pari al numero di Creature in tutto il campo x100|1
+Warrior of Light|300|200| -Mentre "Guerriero della Luce" è sul campo tutte le altre creature Guerriero alleate guadagnano +100 DEF -Se "Guerriero della Luce" viene distrutto in battaglia puoi rivelare una carta Guerriero dalla tua mano e guadagnare 300 HP|1
+King's Defender|400|1200| -Una volta per turno se un “Guerriero” alleato è bersaglio di un attacco puoi invece reindirizzarlo a “Difensore del Re”|2
+Steel Commander|1800|1200| -Mentre "Comandante d’Acciaio" è sul campo tutte le creature Guerriero alleate guadagnano +200 ATK e DEF|3
+Eternal Warrior|2400|2400| -Quando "Guerriero Eterno" viene eliminato dall’avversario prendi la prima carta supporto che trovi cercando nel mazzo oppure puoi perdere 1600 HP e rievocarlo -Puoi sacrificare "Guerriero Eterno" per eliminare tutte le creature avversarie di livello 2 o inferiore + 1 supporto o arteffatto a tua scelta|4
+Paladin of Light|2600|2200| -Mentre "Paladino della Luce" è sul campo tutte le creature Guerriero alleate apparte "Paladino della Luce" diventano immuni agli effetti delle creature avversarie -Ogni volta che una Creatura alleata viene bersagliata da un attacco puoi annullarlo ;il mostro attaccante non puó piú attaccare per quel turno; se lo fai diminuisci di -400 ATK e DEF le statistiche di “Paladino della Luce” cumulabili; fino la fine del turno|4
+Templar King|2800|2200| -Mentre “Re Guerriero Magico” é nel campo tutti i tuoi “Guerrieri” con “Re” nel nome guadagnano +200 ATK e DEF -Quando questa Creatura viene evocata puoi distruggere 1 carta Supporto o Arteffatto nemica a tua scelta -Una volta per turno puoi infliggere al tuo RE 100 HP per ogni Creatura nel tuo terreno; queste poi guadagnano +100 ATK permanente; puoi usare questo effetto una volta al turno per massimo 3 volte|4
